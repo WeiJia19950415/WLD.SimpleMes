@@ -1,0 +1,149 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>WLD.SimpleMes</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20170424115119_Initial_Migrations.cs" />
+    <Compile Remove="Migrations\20170424115119_Initial_Migrations.Designer.cs" />
+    <Compile Remove="Migrations\20170608053244_Upgraded_To_Abp_2_1_0.cs" />
+    <Compile Remove="Migrations\20170608053244_Upgraded_To_Abp_2_1_0.Designer.cs" />
+    <Compile Remove="Migrations\20170621153937_Added_Description_And_IsActive_To_Role.cs" />
+    <Compile Remove="Migrations\20170621153937_Added_Description_And_IsActive_To_Role.Designer.cs" />
+    <Compile Remove="Migrations\20170703134115_Remove_IsActive_From_Role.cs" />
+    <Compile Remove="Migrations\20170703134115_Remove_IsActive_From_Role.Designer.cs" />
+    <Compile Remove="Migrations\20170804083601_Upgraded_To_Abp_v2.2.2.cs" />
+    <Compile Remove="Migrations\20170804083601_Upgraded_To_Abp_v2.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20180201051646_Upgraded_To_Abp_v3.4.0.cs" />
+    <Compile Remove="Migrations\20180201051646_Upgraded_To_Abp_v3.4.0.Designer.cs" />
+    <Compile Remove="Migrations\20180320131229_Upgraded_To_Abp_v3_5_0.cs" />
+    <Compile Remove="Migrations\20180320131229_Upgraded_To_Abp_v3_5_0.Designer.cs" />
+    <Compile Remove="Migrations\20180509121141_Upgraded_To_Abp_v3_6_1.cs" />
+    <Compile Remove="Migrations\20180509121141_Upgraded_To_Abp_v3_6_1.Designer.cs" />
+    <Compile Remove="Migrations\20180726102624_Upgrade_ABP_380.cs" />
+    <Compile Remove="Migrations\20180726102703_Upgrade_ABP_3.8.0.cs" />
+    <Compile Remove="Migrations\20180726102703_Upgrade_ABP_3.8.0.Designer.cs" />
+    <Compile Remove="Migrations\20180731132139_Upgrade_ABP_3.8.1.cs" />
+    <Compile Remove="Migrations\20180731132139_Upgrade_ABP_3.8.1.Designer.cs" />
+    <Compile Remove="Migrations\20180927062408_test.cs" />
+    <Compile Remove="Migrations\20180927062608_Upgrade_ABP_3.8.3.cs" />
+    <Compile Remove="Migrations\20180927062608_Upgrade_ABP_3.8.3.Designer.cs" />
+    <Compile Remove="Migrations\20181013103914_Upgraded_To_Abp_v3_9_0.cs" />
+    <Compile Remove="Migrations\20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" />
+    <Compile Remove="Migrations\20190111071724_Upgraded_To_Abp_v4_1_0.cs" />
+    <Compile Remove="Migrations\20190208051931_Upgrade_ABP_4_2_0.cs" />
+    <Compile Remove="Migrations\20190208051931_Upgrade_ABP_4_2_0.Designer.cs" />
+    <Compile Remove="Migrations\20190703062215_Upgraded_To_Abp_4_7_0.cs" />
+    <Compile Remove="Migrations\20190703062215_Upgraded_To_Abp_4_7_0.Designer.cs" />
+    <Compile Remove="Migrations\20190719143908_Upgraded_To_Abp_4_8_0.cs" />
+    <Compile Remove="Migrations\20190719143908_Upgraded_To_Abp_4_8_0.Designer.cs" />
+    <Compile Remove="Migrations\20191216011543_Upgraded_To_Abp_5_1_0.cs" />
+    <Compile Remove="Migrations\20191216011543_Upgraded_To_Abp_5_1_0.Designer.cs" />
+    <Compile Remove="Migrations\20200220110527_Upgraded_To_Abp_5_2_0.cs" />
+    <Compile Remove="Migrations\20200220110527_Upgraded_To_Abp_5_2_0.Designer.cs" />
+    <Compile Remove="Migrations\20200320114152_Upgraded_To_Abp_5_4_0.cs" />
+    <Compile Remove="Migrations\20200320114152_Upgraded_To_Abp_5_4_0.Designer.cs" />
+    <Compile Remove="Migrations\20200604091046_Upgraded_To_Abp_5_9.cs" />
+    <Compile Remove="Migrations\20200604091046_Upgraded_To_Abp_5_9.Designer.cs" />
+    <Compile Remove="Migrations\20200928141743_Upgraded_To_ABP_5_13_0.cs" />
+    <Compile Remove="Migrations\20200928141743_Upgraded_To_ABP_5_13_0.Designer.cs" />
+    <Compile Remove="Migrations\20201112121732_Upgraded_To_ABP_6_0.cs" />
+    <Compile Remove="Migrations\20201112121732_Upgraded_To_ABP_6_0.Designer.cs" />
+    <Compile Remove="Migrations\20201217144556_Upgrade_To_ABP_6_1_1.cs" />
+    <Compile Remove="Migrations\20201217144556_Upgrade_To_ABP_6_1_1.Designer.cs" />
+    <Compile Remove="Migrations\20210324090321_Upgrade_To_ABP_6_3.cs" />
+    <Compile Remove="Migrations\20210324090321_Upgrade_To_ABP_6_3.Designer.cs" />
+    <Compile Remove="Migrations\20210628103231_Upgrade_To_ABP_6_4_rc1.cs" />
+    <Compile Remove="Migrations\20210628103231_Upgrade_To_ABP_6_4_rc1.Designer.cs" />
+    <Compile Remove="Migrations\20210801031811_InitJHTAbp.cs" />
+    <Compile Remove="Migrations\20210801031811_InitJHTAbp.Designer.cs" />
+    <Compile Remove="Migrations\20210801080007_addAdminAreas.cs" />
+    <Compile Remove="Migrations\20210801080007_addAdminAreas.Designer.cs" />
+    <Compile Remove="Migrations\20221101085947_InitSimpleMesDb.cs" />
+    <Compile Remove="Migrations\20221101085947_InitSimpleMesDb.Designer.cs" />
+    <Compile Remove="Migrations\20221104055731_UpdateBomDB.cs" />
+    <Compile Remove="Migrations\20221104055731_UpdateBomDB.Designer.cs" />
+    <Compile Remove="Migrations\20221105180156_UpdateBom.cs" />
+    <Compile Remove="Migrations\20221105180156_UpdateBom.Designer.cs" />
+    <Compile Remove="Migrations\20221108034014_UpdateWorkProcessSetInfo.cs" />
+    <Compile Remove="Migrations\20221108034014_UpdateWorkProcessSetInfo.Designer.cs" />
+    <Compile Remove="Migrations\20221108052734_UpdateWorkProcessSetInfo02.cs" />
+    <Compile Remove="Migrations\20221108052734_UpdateWorkProcessSetInfo02.Designer.cs" />
+    <Compile Remove="Migrations\20221108080427_UpdateWorkProcessSetDetails.cs" />
+    <Compile Remove="Migrations\20221108080427_UpdateWorkProcessSetDetails.Designer.cs" />
+    <Compile Remove="Migrations\20221108090032_UpdateWorkProcessSetDetails03.cs" />
+    <Compile Remove="Migrations\20221108090032_UpdateWorkProcessSetDetails03.Designer.cs" />
+    <Compile Remove="Migrations\20221109091925_UpdateWorkProcess.cs" />
+    <Compile Remove="Migrations\20221109091925_UpdateWorkProcess.Designer.cs" />
+    <Compile Remove="Migrations\20221110022313_UpdatFormTemplateInfo.cs" />
+    <Compile Remove="Migrations\20221110022313_UpdatFormTemplateInfo.Designer.cs" />
+    <Compile Remove="Migrations\20221110075544_UpdateDataBase.cs" />
+    <Compile Remove="Migrations\20221110075544_UpdateDataBase.Designer.cs" />
+    <Compile Remove="Migrations\20221112033331_MdifyTemplateInfo.cs" />
+    <Compile Remove="Migrations\20221112033331_MdifyTemplateInfo.Designer.cs" />
+    <Compile Remove="Migrations\20221114035827_AddMaterialCatgory.cs" />
+    <Compile Remove="Migrations\20221114035827_AddMaterialCatgory.Designer.cs" />
+    <Compile Remove="Migrations\20221114064945_UpdateBomItem.cs" />
+    <Compile Remove="Migrations\20221114064945_UpdateBomItem.Designer.cs" />
+    <Compile Remove="Migrations\20221114065731_UpdateBomItem2.cs" />
+    <Compile Remove="Migrations\20221114065731_UpdateBomItem2.Designer.cs" />
+    <Compile Remove="Migrations\20221114135155_UpBom.cs" />
+    <Compile Remove="Migrations\20221114135155_UpBom.Designer.cs" />
+    <Compile Remove="Migrations\20221116031906_UpdateWorkOrderInfo.cs" />
+    <Compile Remove="Migrations\20221116031906_UpdateWorkOrderInfo.Designer.cs" />
+    <Compile Remove="Migrations\20221116085421_UpdateWorkOrderInfo01.cs" />
+    <Compile Remove="Migrations\20221116085421_UpdateWorkOrderInfo01.Designer.cs" />
+    <Compile Remove="Migrations\20221116085942_UpdateWorkOrderInfo022.cs" />
+    <Compile Remove="Migrations\20221116085942_UpdateWorkOrderInfo022.Designer.cs" />
+    <Compile Remove="Migrations\20221117051522_AddBatchNumberRule.cs" />
+    <Compile Remove="Migrations\20221117051522_AddBatchNumberRule.Designer.cs" />
+    <Compile Remove="Migrations\20221118033318_UpdateProblemCategory.cs" />
+    <Compile Remove="Migrations\20221118033318_UpdateProblemCategory.Designer.cs" />
+    <Compile Remove="Migrations\20221118081348_AddProblemDefineName.cs" />
+    <Compile Remove="Migrations\20221118081348_AddProblemDefineName.Designer.cs" />
+    <Compile Remove="Migrations\20221125033411_testForRecovery.cs" />
+    <Compile Remove="Migrations\20221125033411_testForRecovery.Designer.cs" />
+    <Compile Remove="Migrations\20221205022749_UpdateWorkOrderInfo.cs" />
+    <Compile Remove="Migrations\20221205022749_UpdateWorkOrderInfo.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801034836_InitLogReportDb.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801034836_InitLogReportDb.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801041256_InitLogReportDb_1.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801041256_InitLogReportDb_1.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801051031_InitLogReportDb_2.cs" />
+    <Compile Remove="Migrations\LogReportDb\20210801051031_InitLogReportDb_2.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221101090016_InitLogReportDbContext.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221101090016_InitLogReportDbContext.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221117085502_UpdateBatchNumber.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221117085502_UpdateBatchNumber.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221117090901_UpdateBatchNumberPrintTime.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221117090901_UpdateBatchNumberPrintTime.Designer.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221118021313_ModifyUnitName.cs" />
+    <Compile Remove="Migrations\LogReportDb\20221118021313_ModifyUnitName.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.Dapper" Version="7.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+   
+  <ItemGroup>
+    <ProjectReference Include="..\WLD.SimpleMes.Common\WLD.SimpleMes.Common.csproj" />
+    <ProjectReference Include="..\WLD.SimpleMes.Core\WLD.SimpleMes.Core.csproj" />
+  </ItemGroup>
+  
+</Project>
+
