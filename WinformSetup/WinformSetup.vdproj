@@ -160,7 +160,7 @@
         {
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_002BAD3A2B254088AAE4D241E530E044"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\Img\\ayt7w-i027h-001.ico"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\Img\\ayt7w-i027h-001.ico"
             "TargetName" = "8:ayt7w-i027h-001.ico"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -180,7 +180,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0AEC08ABBE1F4D91B1063E1C6C42FF69"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\TSCLIB.dll"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\TSCLIB.dll"
             "TargetName" = "8:TSCLIB.dll"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -200,7 +200,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_586195801D0F4AF18CEE2EDCA08239C6"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\Img\\amsqg-ifrcp-001.ico"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\Img\\amsqg-ifrcp-001.ico"
             "TargetName" = "8:amsqg-ifrcp-001.ico"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -220,7 +220,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_778BEF9FB8CB4D6FB0556E55C983BD2B"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\Img\\logo.png"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\Img\\logo.png"
             "TargetName" = "8:logo.png"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -240,7 +240,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B8EF36D8572D48BEBC86C3EEB7333D32"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\NLog.config"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\NLog.config"
             "TargetName" = "8:NLog.config"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -260,7 +260,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD36747FA38C452981622999A8642806"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\WebView2Loader.dll"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\WebView2Loader.dll"
             "TargetName" = "8:WebView2Loader.dll"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"
@@ -280,7 +280,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD75A96EFCFD4EBB9B2EA7A36500B089"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\runtimes\\win-x64\\native\\WebView2Loader.dll"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\bin\\Release\\net6.0-windows\\publish\\win-x64\\runtimes\\win-x64\\native\\WebView2Loader.dll"
             "TargetName" = "8:WebView2Loader.dll"
             "Tag" = "8:"
             "Folder" = "8:_9BA6EFF4C522474AB287E4B3CF22CA0A"
@@ -937,7 +937,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_58596023A3A64766B4ED41B109DFDD8A"
             {
-            "SourcePath" = "8:..\\src\\WLD.SimpleMes.WinformClient\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\src\\SC.SimpleMes.WinformClient\\obj\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8DA212C45F88458CB9DA2E39E372DBE7"

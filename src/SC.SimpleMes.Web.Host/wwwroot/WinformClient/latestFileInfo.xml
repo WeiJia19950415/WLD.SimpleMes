@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<item>
+	<version>1.0.0.0</version>
+	<url>https://192.168.1.33:8015/WinformClient/downloads/SC.SimpleMes.WinformClient.zip</url>
+	<changelog>https://192.168.1.33:8015/WinformClient/upgraderLog.html</changelog>
+	<mandatory mode="2">false</mandatory>
+</item>
